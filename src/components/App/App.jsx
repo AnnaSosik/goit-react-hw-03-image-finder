@@ -38,9 +38,9 @@ class App extends Component {
   // Method for handling the submission of the search form
   handleSubmit = query => {
     this.setState({
-      searchName: query, // Устанавливаем введенный запрос в состояние
-      images: [], // Очищаем массив с изображениями
-      currentPage: 1, // Сбрасываем номер текущей страницы на первую
+      searchName: query,
+      images: [],
+      currentPage: 1,
     });
   };
 
