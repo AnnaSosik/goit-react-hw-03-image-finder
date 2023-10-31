@@ -8,8 +8,7 @@ export const SearchForm = styled.form`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom:solid white;
-  
+  border-bottom: solid white;
 `;
 
 export const SearchInput = styled.input`
@@ -43,7 +42,7 @@ export const SearchButton = styled.button`
   cursor: pointer;
   &:hover,
   &:focus {
-    background-color: rgba(255, 255, 126, 1);
+    background-color: rgba(142, 168, 184, 0.5);
   }
 `;
 
