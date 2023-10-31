@@ -38,9 +38,11 @@ class App extends Component {
   // Method for handling the submission of the search form
   handleSubmit = query => {
     this.setState({
-      searchName: query,
-      images: [],
-      currentPage: 1,
+      searchName: query, // Set the entered query to the state
+
+      images: [], // Clear the array with images
+
+      currentPage: 1, // Reset the current page number to the first page number
     });
   };
 
